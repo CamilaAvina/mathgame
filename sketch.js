@@ -93,7 +93,7 @@ function keyPressed() {
 }
 
 function equa() {
-
+delayTime(delayTime);
   if (question[0]) {
     //  frameRate(.5);
     randomQuest = int(random(question.length));

@@ -5,7 +5,8 @@ function Snake() {
   this.yspeed = 0;
 	this.total = 0;
 	this.tail = [];
-  this.answers = ['5','11','10','7','6'];
+
+
 
 
 
@@ -47,6 +48,7 @@ function Snake() {
 		this.x = constrain(this.x, 0, width - scl);
     this.y = constrain(this.y, 0, height - scl);
   }
+
   this.show = function() {
     fill(255)
 		for (let i = 0; i < this.total; i++) {
@@ -55,5 +57,4 @@ function Snake() {
 		}
     rect(this.x, this.y, scl, scl);
   }
-
 }

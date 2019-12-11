@@ -5,6 +5,8 @@ function Snake() {
   this.yspeed = 0;
 	this.total = 0;
 	this.tail = [];
+  this.answers = ['5','11','10','7','6'];
+
 
 
   this.eat = function(pos) {
